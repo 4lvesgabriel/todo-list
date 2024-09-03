@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+.main, .lista{
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.5px);
+    -webkit-backdrop-filter: blur(9.5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 12px;
+    margin: 12px 0 12px 0;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    width: 65%;
+}
+
+.form button {
+    width: 25%;
+}
+
+li {
+    background: rgba(78, 78, 78, 0.4);
+    border-radius: 6px;
+    padding: 6px;
+    margin: 6px 0 6px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
